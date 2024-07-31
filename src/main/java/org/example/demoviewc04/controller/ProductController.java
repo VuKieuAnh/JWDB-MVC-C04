@@ -2,6 +2,7 @@ package org.example.demoviewc04.controller;
 
 import org.example.demoviewc04.model.Product;
 import org.example.demoviewc04.service.product.IProductService;
+import org.example.demoviewc04.service.product.ProductDAO;
 import org.example.demoviewc04.service.product.ProductService;
 
 import javax.servlet.RequestDispatcher;
@@ -15,7 +16,7 @@ import java.util.List;
 
 @WebServlet(name = "productController", value = "/products")
 public class ProductController extends HttpServlet {
-    private static IProductService productService = new ProductService();
+    private static IProductService productService = new ProductDAO();
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String action = req.getParameter("action");
