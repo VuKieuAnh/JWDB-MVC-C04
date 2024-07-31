@@ -1,9 +1,8 @@
 package org.example.demoviewc04.controller;
 
 import org.example.demoviewc04.model.Student;
-import org.example.demoviewc04.service.IStudentService;
-import org.example.demoviewc04.service.StudentService;
-import org.example.demoviewc04.service.StudentServiceEx;
+import org.example.demoviewc04.service.student.IStudentService;
+import org.example.demoviewc04.service.student.StudentService;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;

@@ -1,4 +1,4 @@
-package org.example.demoviewc04.service;
+package org.example.demoviewc04.service.student;
 
 import org.example.demoviewc04.model.Student;
 

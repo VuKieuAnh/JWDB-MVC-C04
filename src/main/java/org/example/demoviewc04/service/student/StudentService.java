@@ -1,9 +1,8 @@
-package org.example.demoviewc04.service;
+package org.example.demoviewc04.service.student;
 
 import org.example.demoviewc04.model.Student;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class StudentService implements IStudentService {
